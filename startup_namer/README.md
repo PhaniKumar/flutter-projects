@@ -1,6 +1,7 @@
 # startup_namer
 
 A new Flutter application.
+Learning Flutter...!
 
 ## Getting Started
 
