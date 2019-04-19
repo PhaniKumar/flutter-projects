@@ -8,6 +8,7 @@ void main(){
 
 class FriendlyChatApp extends StatelessWidget{
 
+  @override
   Widget build(BuildContext context){
     return new MaterialApp(
       title: "FriendlyChat",
@@ -96,6 +97,7 @@ class ChatMessage extends StatelessWidget {
 
   ChatMessage({this.text});
 
+  @override
   Widget build(BuildContext context){
     return new Container(
       margin: const EdgeInsets.symmetric(vertical: 10.0),
