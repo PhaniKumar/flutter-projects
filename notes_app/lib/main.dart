@@ -17,7 +17,7 @@ class NotesApp extends StatelessWidget{
       theme: ThemeData(
         primaryColor: Colors.deepPurple,
       ),
-      home: NoteDetail(),
+      home: NoteList(),
     );
   }
 }

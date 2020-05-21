@@ -113,6 +113,7 @@ class NoteDetailState extends State<NoteDetail> {
                       ),
                       onPressed: () => setState(() {
                         debugPrint("Cancel clicked");
+                        Navigator.pop(context);
                       }),
                     ),
                   )
